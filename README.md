@@ -1,142 +1,210 @@
-![freeCodeCamp.org Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
-[![Build Status](https://travis-ci.org/freeCodeCamp/freeCodeCamp.svg?branch=staging)](https://travis-ci.org/freeCodeCamp/freeCodeCamp)
-[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
-[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
-[![Known Vulnerabilities](https://snyk.io/test/github/freecodecamp/freecodecamp/badge.svg)](https://snyk.io/test/github/freecodecamp/freecodecamp)
+# ACM-ICPC Algorithms
 
+### Introduction to ACM-ICPC
+ACM International Collegiate Programming Contest (abbreviated as ACM-ICPC or ICPC) is an annual multi-tiered competitive programming competition among the universities of the world.
 
-## Welcome to freeCodeCamp.org's open source codebase and curriculum!
+Alternately, we can say that the [International Collegiate Programming Contest](https://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest) is an algorithmic programming contest for college students.
+- Teams of three, representing their university, work to solve real-world problems, fostering collaboration, creativity, innovation, and the ability to perform under pressure.
+- Through training and competition, teams challenge each other to raise the bar on what could be done.
+- Quite simply, it is the oldest, largest, and most prestigious programming contest in the world.
 
-freeCodeCamp.org is a friendly community where you can learn to code for free. It is run by a [donor-supported 501(c)(3) nonprofit](https://donate.freecodecamp.org) with the goal of helping millions of busy adults transition into tech. Our community has already helped more than 10,000 people get their first developer job.
+### Purpose of ACM-ICPC Algorithms
+ACM-ICPC Algorithms is a collection of important algorithms and data structures used to solve questions in this worldwide olympiad. It aims to provide solutions in various languages as per [ICPC 2018 WF](https://icpc.baylor.edu/worldfinals/programming-environment), including:
+-  C
+-  C++
+-  Java
+-  Python (2 & 3)
+-  Kotlin
+##### For more information, visit: **Official Website of [ICPC](https://icpc.baylor.edu/)**
 
-Our full-stack web development curriculum is completely free and self-paced. We have thousands of interactive coding challenges to help you expand your skills.
+#### If you wish to contribute, please refer to [the contributor guidelines](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms/blob/master/CONTRIBUTING.md).
 
-## Table of Contents
+**Table of Contents :**
 
-* [Certifications](#certifications)
-* [The Learning Platform](#the-learning-platform)
-* [Found a Bug](#found-a-bug)
-* [Found a security issue](#found-a-security-issue)
-* [Contributing](#contributing)
-* [License](#license)
-
-
-### Certifications
-
-freeCodeCamp.org offers several free developer certifications. Each of these certifications involves building 5 required web app projects, along with hundreds of optional coding challenges to help you prepare for those projects. We estimate that each certification will take a beginning programmer around 300 hours to earn.
-
-Each of these 30 projects in the freeCodeCamp.org curriculum has its own agile user stories and automated tests. These help you build up your project incrementally and ensure you've fulfilled all the user stories before you submit it.
-
-You can pull in these test suites through [freeCodeCamp's CDN](https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js). This means you can build these projects on websites like CodePen and Glitch - or even on your local computer's development environment.
-
-Once you’ve earned a certification, you will always have it. You will always be able to link to it from your LinkedIn or résumé. And when your prospective employers or freelance clients click that link, they’ll see a verified certification specific to you.
-
-The one exception to this is in the event that we discover violations of our [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty). When we catch people unambiguously plagiarizing (submitting other people's code or projects as their own without citation), we do what all rigorous institutions of learning should do - we revoke their certifications and ban those people.
-
-Here are our six core certifications:
-
-#### 1. Responsive Web Design Certification
-
-- Basic HTML and HTML5
-- Basic CSS
-- Applied Visual Design
-- Applied Accessibility
-- Responsive Web Design Principles
-- CSS Flexbox
-- CSS Grid <br />
-  <br />
-  **Projects**: Tribute Page, Survey Form, Product Landing Page, Technical Documentation Page, Personal Portfolio Webpage
-
-#### 2. JavaScript Algorithms and Data Structures Certification
-
-- Basic JavaScript
-- ES6
-- Regular Expressions
-- Debugging
-- Basic Data Structures
-- Algorithm Scripting
-- Object Oriented Programming
-- Functional Programming <br />
-  <br />
-  **Projects**: Palindrome Checker, Roman Numeral Converter, Caesars Cipher, Telephone Number Validator, Cash Register
-
-#### 3. Front End Libraries Certification
-
-- Bootstrap
-- jQuery
-- Sass
-- React
-- Redux
-- React and Redux <br />
-  <br />
-  **Projects**: Random Quote Machine, Markdown Previewer, Drum Machine, JavaScript Calculator, Pomodoro Clock
-
-#### 4. Data Visualization Certification
-
-- Data Visualization with D3
-- JSON APIs and Ajax <br />
-  <br />
-  **Projects**: Bar Chart, Scatterplot Graph, Heat Map, Choropleth Map, Treemap Diagram
-
-#### 5. APIs and Microservices Certification
-
-- Managing Packages with Npm
-- Basic Node and Express
-- MongoDB and Mongoose <br />
-  <br />
-  **Projects**: Timestamp Microservice, Request Header Parser, URL Shortener, Exercise Tracker, File Metadata Microservice
-
-#### 6. Information Security and Quality Assurance Certification
-
-- Information Security with HelmetJS
-- Quality Assurance and Testing with Chai
-- Advanced Node and Express <br />
-  <br />
-  **Projects**: Metric-Imperial Converter, Issue Tracker, Personal Library, Stock Price Checker, Anonymous Message Board
-
-#### Full Stack Development Certification
-
-Once you earn all 6 of these certifications, you'll be able to claim your freeCodeCamp.org Full Stack Development Certification. This final distinction signifies that you’ve completed around 1,800 hours of coding with a wide range of web development tools.
-
-#### Legacy Certifications
-
-We also have 3 legacy certifications from our 2015 curriculum, which are still available. All of the required projects for these legacy certifications will remain available on freeCodeCamp.org.
-
-- Legacy Front End Development Certification
-- Legacy Data Visualization Certification
-- Legacy Back End Development Certification
-
-### The Learning Platform
-
-This code is running live at [freeCodeCamp.org](https://www.freecodecamp.org).
-
-Our community also has:
-
-- A super active [forum](https://www.freecodecamp.org/forum)
-- Thousands of [local study groups](https://study-group-directory.freecodecamp.org/) around the world, where you can code together in person
-- Medium's [largest technical publication](https://medium.freecodecamp.org)
-- A popular [YouTube channel](https://youtube.com/freecodecamp)
-- A comprehensive [guide to thousands of programming topics](https://guide.freecodecamp.org/)
-
-### [Join our community here](https://www.freecodecamp.org/signin).
-
-### Found a bug?
-
-If you think you've found a bug, first read the [Help I've Found a Bug](https://www.freecodecamp.org/forum/t/how-to-report-a-bug/19543) article and follow its instructions. If you're confident it's a new bug, and have confirmed that someone else facing the same issue, go ahead and create a new GitHub issue. Be sure to include as much information as possible so we can reproduce the bug.
-
-### Found a security issue?
-
-Please don't create GitHub issues for security issues. Instead, please send an email to `security@freecodecamp.org` and we'll look into it immediately.
-
-### Contributing
-
-#### [Please follow these steps to contribute.](CONTRIBUTING.md)
-
-### License
-
-Copyright © 2018 freeCodeCamp.org
-
-The content of this repository is bound by the following licenses:
-
-- The computer software is licensed under the [BSD-3-Clause](LICENSE.md) License.
-- The [curricular content](https://www.npmjs.com/package/@freecodecamp/curriculum) in the [`/curriculum`](/curriculum) folder and its subdirectories are licensed under the [CC-BY-SA-4.0](/curriculum/LICENSE.md) License.
+* [Breadth First Search](/BFS)
+* [Branch And Bound](/Branch%20and%20Bound)
+  * [0/1 Knapsack](/Branch%20and%20Bound/0_1%20Knapsack)
+* [Binary Search Tree](/BST)
+* [Backtracking](/BackTracking)
+   * [Hamilton Path](/BackTracking/Hamilton%20Path)
+   * [Knights Tour](/BackTracking/KnightsTour)
+   * [NQueens](/BackTracking/NQueens)
+   * [Rat In A Maze](/BackTracking/RatInAMaze)
+   * [Sudoku Algorithm](/BackTracking/SudokuAlgorithm)
+* [Depth First Search](/DFS)
+* [Bit Manipulation](/BitManipulation)
+   * [Checking Power of 2](/BitManipulation/Checking_power_of_2)
+   * [Nth Magic No](/BitManipulation/Nth_magic_number)
+   * [Set kth Bit](/BitManipulation/Set_kth_bit)
+   * [Sparse Number](/BitManipulation/Sparse_number)
+   * [Count Ones](/BitManipulation/count_ones)
+   * [Divide Integers](/BitManipulation/divide_integers)
+   * [Even Odd](/BitManipulation/even_odd)
+   * [Print Subsets](/BitManipulation/print_subsets)
+   * [Reverse Bits](/BitManipulation/reverse_bits)
+   * [Single Number](/BitManipulation/single_number)
+   * [Swap Bits](/BitManipulation/swap_bits)
+* [Data Structures](/Data%20Structures)
+   * [Disjoint Set](/Data%20Structures/disjointset)
+   * [Doubly Linked List](/Data%20Structures/DoublyLinkedList)
+   * [Fenwick Tree](/Data%20Structures/Fenwick_tree)
+   * [LCA](/Data%20Structures/LCA)
+   * [Linked List](/Data%20Structures/Linked%20List)
+   * [Queue](/Data%20Structures/Queue)
+   * [Queue From Stack Or Stack From Queue](/Data%20Structures/QueueFromStack_StackFromQueue)
+   * [Red Black Tree](/Data%20Structures/Red%20Black%20Tree)
+   * [Singly Linked List](/Data%20Structures/SinglyLinkedList)
+   * [Stack](/Data%20Structures/Stack)
+   * [Segment Tree](/Data%20Structures/Segment%20Tree)
+   * [Treap](/Data%20Structures/Treap)
+   * [Trie](/Data%20Structures/Trie)
+* [Dynamic Programming](/DP)
+   * [Coin Change](/DP/Coin%20Change%20Problem)
+   * [Collect Maximum Points](/DP/Collect_Max_Points)
+   * [Edit Distance](/DP/EditDistance)
+   * [Egg Dropping Puzzle](/DP/Egg%20Dropping%20Puzzle)
+   * [Fibonacci Series](/DP/Fibonacci)
+   * [Floyd Warshall Algorithm](/DP/Floyd%20Warshall%20Algorithm)
+   * [Game Of Sum](/DP/game_of_sum)
+   * [Knapsack](/DP/Knapsack)
+   * [Longest Palindrome Substring](/DP/Longest%20Palindrome%20Substring)
+   * [Longest Common Increasing Subsequence](/DP/LCIS)
+   * [Longest Common Subsequence](/DP/LongestCommonSubsequence)
+   * [Longest Increasing Subsequence](/DP/LongestIncreasingSubsequence)
+   * [Longest Repeated Subsequence](/DP/Longest%20Repeated%20Subsequence)
+   * [Matrix Chain Multiplication](/DP/MatrixChain_multiplication)
+   * [Max Sum Increasing Subsequence](/DP/Maximum%20Sum%20Increasing%20Subsequence)
+   * [Minimum Path Sum](/DP/MinimumPathSum)
+   * [Number Of Islands](/DP/NumberOfIslands)
+   * [Partition Problem](/DP/PartitionProblem)
+   * [Print Neatly](/DP/PrintNeatly)
+   * [Recursive Staircase Problem](/DP/Recursive_Staircase_Problem)
+   * [Shortest Uncommon Subsequence](/DP/ShortestUncommonSubsequence)
+   * [Subset Sum](/DP/subset%20sum%20problem)
+   * [Longest Bitonic SubSequence](/DP/LongestBitonicSubseq)
+   * [Tiling Problem](/DP/Tiling%20Problem)
+* [Graph Algorithms](/Graph)
+   * [Articulation Points](/Graph/Articulation_points)
+   * [Bellman Ford SSSP](/Graph/BellmanFordSSSP)
+   * [Bridges](/Graph/bridges)
+   * [Centroid Decomposition](/Graph/Centroid%20Decomposition)
+   * [Detect Cycle](/Graph/Detect_Cycle)
+   * [Dials Algorithm](/Graph/DialsAlgorithm)
+   * [Dijkstras SPT](/Graph/DijkstrasSPT)
+   * [Euler Path](/Graph/EulerPath)
+   * [Floyd Warshall](/Graph/FloydWarshall)
+   * [Graph Coloring](/Graph/Graph_m_Coloring)
+   * [Johnson's Algorithm](/Graph/Johnson'sAlgorithm)
+   * [Kruskal MST](/Graph/KruskalsMST)
+   * [Prims MST](/Graph/PrimsMST)
+   * [Sack](/Graph/Sack)
+   * [SPFA SSSP](/Graph/SPFA%20SSSP)
+   * [Targan SCC](/Graph/TarganSCC)
+   * [Topo Sort](/Graph/TopoSort)
+   * [Fenwick Tree](/Graph/FenwickTree)
+* [Greedy Algorithms](/Greedy)
+   * [Activity Selection](/Greedy/ActivitySelection)
+   * [Containership](/Greedy/ContainerShip)
+   * [Equalizing Bit Strings](/Greedy/EqualizingBitStrings)
+   * [Gas Station](/Greedy/Gas%20Station)
+   * [Greedy Graph Coloring](/Greedy/Greedy_Graph_Coloring)
+   * [Huffman Coding](/Greedy/Huffman%20coding)
+   * [Knapsack](/Greedy/Knapsack)
+   * [Kruskal's Minimum Spanning Tree](/Greedy/Kruskal’sMinimumSpanningTree)
+   * [Maximum Increasing Subarray](/Greedy/MaximumIncreasingSubarray)
+   * [Minimum Coins](/Greedy/MinimumCoins)
+   * [Odd Sum Subsequence](/Greedy/OddSumSubsequence)
+* [Hashing Algorithms](/Hashing)
+   * [2 Sum](/Hashing/2_Sum)
+   * [3 Sum](/Hashing/3_Sum)
+   * [4 Sum](/Hashing/4_Sum)
+* [Machine Learning](/MachineLearning)
+   * [Perceptron](/MachineLearning/Perceptron)
+* [Mathematical Algorithms](/Math)
+   * [3 Sum square complexity](/Math/3_Sum_square_complexity)
+   * [Factors Of A Given Number](/Math/All%20factors%20of%20a%20given%20Number)
+   * [Collatz Conjecture](/Math/collatz_conjecture)
+   * [Combinations](/Math/Combinations)
+   * [Bézout's Coefficients](/Math/Bézout's%20Coefficients)
+   * [Convuxhull](/Math/convuxhull)
+   * [Euler's Totient Function](/Math/eulers_totient_function)
+   * [Factorization](/Math/Factorization)
+   * [Factors](/Math/factors)
+   * [Fast Exponentiation with Mod](/Math/Fast%20Exponentiation%20with%20Mod)
+   * [Floor Square Root](/Math/floor_sqrt)
+   * [Greatest Common Divisor](/Math/gcd)
+   * [Histogram Area](/Math/histogram_area)
+   * [Largest Number Divisible By Three](/Math/largest_number_divisible_by_three)
+   * [Last Digit Exp](/Math/last_digit_exp)
+   * [Logarithm](/Math/log)
+   * [Lowest Common Multiple](/Math/lowest_common_multiple)
+   * [Matrix Power](/Math/Matrix_Power)
+   * [Max Divisible Number](/Math/max_divisible_num)
+   * [Max Sub Rectangle](/Math/max_sub_rectangle)
+   * [Max Sub Square](/Math/Max_Sub_Square)
+   * [Miller Rabin Primality Test](/Math/miller_rabin_primality_test)
+   * [Modular Multiplication Inverse](/Math/modular_multiplicative_inverse)
+   * [Next Power of 2](/Math/NextPow2)
+   * [Nth Root](/Math/nthRoot)
+   * [Pascal Row](/Math/pascal_row)
+   * [Power](/Math/Power)
+   * [Prime](/Math/Prime)
+   * [Randomized Algorithms](/Math/Randomized%20algorithms)
+   * [Set](/Math/Set)
+   * [Sieve Of Eratosthenes](/Math/sieve_of_eratosthenes)
+   * [Square Root](/Math/squareroot)
+   * [Subset Sum](/Math/subset_sum)
+   * [Sum Of Digits](/Math/sum_of_digits)
+   * [Tower Of Hanoi](/Math/TowerofHanoi)
+   * [Truncated Square Root](/Math/truncated_square_root)
+   * [Calculate And Print All Permutations](/Math/AllPermutations)
+   * [Calculate the result of binom(n,p)](/Math/binomial_coefficients)
+* [Network Flow](/NetworkFlow)
+   * [Dinic](/NetworkFlow/Dinic)
+   * [Edmund Karp](/NetworkFlow/EdmundKarp)
+   * [Ford Fulkerson](/NetworkFlow/FordFulkerson)
+   * [Goldberg Tarjan](/NetworkFlow/GoldbergTarjan)
+* [Search Algorithms](/Search)
+   * [Binary Search](/Search/BinarySearch)
+   * [Fibonacci Search](/Search/FibonacciSearch)
+   * [Hashing](/Search/hashing)
+   * [Jump Search](/Search/JumpSearch)
+   * [Linear Search](/Search/LinearSearch)
+   * [Ternary Search](/Search/TernarySearch)
+   * [Interpolation Search](/Search/InterpolationSearch)
+   * [Exponential Search](/Search/ExponentialSearch)
+* [Sorting Algorithms](/Sorting)
+   * [BogoSort](/Sorting/BogoSort)
+   * [Strand sort](/Sorting/strandsort)
+   * [Bubble Sort](/Sorting/Bubble%20Sort)
+   * [Bucket Sort](/Sorting/Bucket%20Sort)
+   * [Cocktail Shaker Sort](/Sorting/Cocktail%20Shaker%20Sort)
+   * [Comb Sort](/Sorting/Comb%20Sort)
+   * [Counting Sort](/Sorting/Counting%20Sort)
+   * [HeapSort](/Sorting/HeapSort)
+   * [Index Sort](/Sorting/Index%20Sort)
+   * [Insertion Sort](/Sorting/Insertion%20Sort)
+   * [Merge Sort](/Sorting/Merge%20Sort)
+   * [Pancake Sorting](/Sorting/Pancake%20Sorting)
+   * [Patience Sorting](/Sorting/Patience%20Sorting)
+   * [QuickSort](/Sorting/QuickSort)
+   * [Radix Sort](/Sorting/Radix%20Sort)
+   * [Selection Sort](/Sorting/Selection%20Sort)
+   * [ShellSort](/Sorting/ShellSort)
+   * [TimSort](/Sorting/TimSort)
+   * [Topological Sorting](/Sorting/Topological%20Sorting)
+* [String Algorithms](/String)
+   * [Anagram](/String/Anagram)
+   * [Balanced Parenthesis](/String/Balanced%20Parentheses)
+   * [Hamming Distance](/String/Hamming%20distance)
+   * [KMP](/String/KMP)
+   * [Palindrome](/String/Palindrome)
+   * [String Automaton](/String/String%20Automaton)
+   * [String Matching](/String/String%20Matching)
+   * [Substring](/String/Substring)
+   * [Top K Frequent Words](/String/Top_K_Frequent_Words)
+   * [Top K Frequent Words In Java](/String/top_k_frequent_words_in_java)
+   * [Uncompressing Strings](/String/Uncompressing_Strings)
+   * [Parsing Arithmetic](/String/ParsingArithmetic)
+* [Geometry 2D](/Geometry%202D)
+   * [Lines Intersection](/Geometry%202D/Lines%20Intersection)
